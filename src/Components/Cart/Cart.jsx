@@ -33,7 +33,7 @@ const Cart = ({
           </Grid>
         ))}
       </Grid>
-      <div className={classes.cartDetails}>
+      <div className={classes.cardDetails}>
         <Typography variant="h4">
           Subtotal: {cart.subtotal.formatted_with_symbol}
         </Typography>
